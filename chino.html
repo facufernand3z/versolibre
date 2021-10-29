@@ -1,0 +1,93 @@
+<head>
+
+              <meta charset="UTF-8">
+
+<title> Uso de webkit-box en css3 </title>
+
+       </head>
+
+       <style>
+
+       header, footer, section {
+
+              border: 5px solid #FFA500;
+
+              font-family: Georgia;
+
+              font-size: 40px;
+
+              text-align: center;
+
+              margin: 20px;
+
+              }
+
+              #doc {
+
+              width: 80%;
+
+              min-width: 600px;
+
+              height: 100%;
+
+              display: -webkit-box;
+
+              -webkit-box-orient: vertical;
+
+              margin: 0 auto;
+
+              }
+
+              header,
+
+              footer {
+
+              min-height: 100px;
+
+              -webkit-box-flex: 1;
+
+              }
+
+              #content {
+
+              min-height: 400px;
+
+              display: -webkit-box;
+
+              -webkit-box-orient: horizontal;
+
+              }
+
+             
+
+              .w200 {width: 200px}
+
+              .flex1 {-webkit-box-flex: 1}
+
+              .flex2 {-webkit-box-flex: 2}
+
+              .flex3 {-webkit-box-flex: 3}
+
+</style>
+
+       <body>
+
+              <div id=”doc”>
+
+                     <header>Header</header>
+
+                     <div id=”content”>
+
+<section> ancho fijo 200 </section>
+
+<section> Proporción 3 </section>
+
+<section> Proporción 1 </section>
+
+                     </div>
+
+                     <footer>Footer</footer>
+
+              </div>
+
+       </body>

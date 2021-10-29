@@ -1,0 +1,78 @@
+*{
+	font-family: 'Jost', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing:unset;
+	color:unset;
+	text-decoration: unset;
+
+
+}
+
+li{
+	list-style: none;
+	font-size: 1.5em;
+}
+
+h2{
+
+}
+
+.te-invito{
+	width: 40%
+}
+
+.Inicio{
+	width: 40%;
+}
+.nav a{
+	color:rgb(10,70,120);
+	text-decoration-line: none;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.nav__li{
+	display:inline-block;
+	padding: 30px;
+	padding-top:0;
+	padding-bottom: 0;
+}
+
+.nav{
+	text-align: center;
+	margin-top:50px;
+	margin-bottom: 0;
+}
+
+.cuerpo{
+	display: inline-block;
+	padding: 10px;
+	position:relative;
+	left:25vw;
+	object-fit: contain;
+	top:5vh;
+
+}
+
+img{
+	margin-top: 8vh;
+	padding: 0;
+	width: 80vw;
+	height: 80vh;
+	object-fit: contain;
+	position: absolute;
+	right: -7vw;
+	top:6vh;
+
+}
+
+a:hover{
+	color:rgb(47,47,229);
+	cursor:hand;
+}
+
+.ff{
+	position: absolute;
+	z-index: 2;
+}
